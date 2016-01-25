@@ -42,18 +42,21 @@
 
 			.navbar {
 				background-color: #fff;
-				margin-bottom: 0px;
-				
+				margin-bottom: 0px;	
 			}
-			.navbar-nav a { font-weight: 500; font-size: 20px; }
+
+			#navbar a { 
+				font-weight: 500;
+			}
+
 			#navbar a, h4 {
 				color: #21965A;
 			}
 			
-			.navbar-brand { height: 100px; }
+			.navbar-brand { border: 1px solid; padding: 0;}
 
 			.navbar-brand img {
-				height: 80px;
+				height: 100%;
 			}
 
 			.thumbnail {
@@ -95,6 +98,32 @@
 
 			}
 
+			.ai-logo {
+				height: 60px;
+			}
+
+			a.pull-left {
+
+			}
+
+@media (min-width: 768px) {
+
+			#navbar a { 
+				padding-top: 0 ; 
+				padding-bottom: 0;
+				line-height: 60px;
+			}
+}
+
+
+/*			.navbar-brand { margin-top: 15px; max-width: 30%; padding: 0; }
+
+			.navbar-brand img { max-height: 50px; width: auto; }
+
+			.navbar-nav li a {
+			 line-height: 50px;
+			}
+*/
 /*			.col-xs-15 {
     width: 20%;
     float: left;
@@ -137,7 +166,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="https://s3.amazonaws.com/artwork.ceg/dealer_logos/allisland_gif.jpg" class=""></a>
+          <a class="pull-left" href="#"><img src="https://s3.amazonaws.com/artwork.ceg/dealer_logos/allisland_gif.jpg" class="img-responsive ai-logo" ></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
