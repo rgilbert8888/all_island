@@ -1,0 +1,110 @@
+body {
+        		background-color: #f8f8f8;
+        	}
+        	.container {
+
+        	}
+			.jumbotron {
+				/*background-color: #B4BE99;
+				background-color: #B4BE99;*/
+				background-image: url(http://www.wagnerequipment.com/images/products_bkg.jpg);
+				background-size: cover;
+				padding-top: 60px;
+				padding-bottom: 60px;
+				color: white;
+				
+			}
+
+			.text, .pictures {
+				/*padding: @padding-small-vertical;*/
+				margin-bottom: 15px;
+				/*background-color: #FCF17E;*/
+			}		
+			.pictures {
+				/*padding: @padding-small-vertical;*/
+				margin-top: 30px;
+				/*background-color: #FCF17E;*/
+			}
+
+			.navbar {
+				background-color: #fff;
+				margin-bottom: 0px;	
+			}
+
+			#navbar a { 
+				font-weight: 500;
+			}
+
+			#navbar a, h4 {
+				color: #21965A;
+			}
+			
+			.navbar-brand { border: 1px solid; padding: 0;}
+
+			.navbar-brand img {
+				height: 100%;
+			}
+
+			.thumbnail {
+			    background-color: #f8f8f8;
+			   /* border: none;
+			    border-radius: 0px;*/
+
+			}
+
+			.container-fluid {
+				background-color: #eee;
+				border-top: 1px solid #ddd;
+				border-bottom: 1px solid #ddd;
+				text-align: center;
+
+			}
+			
+			.thumbnail img {
+				width: 100%;
+			}
+
+/*			.logos {
+				text-align: center;
+			}*/
+			
+			.logos .thumbnail {
+				margin-top: 20px;
+				background-color: #eee;
+				border: none;
+			}
+
+			.logos .thumbnail img {
+				width: 70%;
+			}
+
+			h2.underline {
+				border-bottom: 1px solid #818181;
+				display: inline-block;	
+
+			}
+
+			.ai-logo {
+				height: 60px;
+			}
+
+			a.pull-left {
+
+			}
+
+
+		/*contact page*/
+
+/*			.contact-item {
+				border-right: 1px solid #eee;
+			}
+
+*/
+@media (min-width: 768px) {
+
+			#navbar a { 
+				padding-top: 0 ; 
+				padding-bottom: 0;
+				line-height: 60px;
+			}
+}
